@@ -1,0 +1,63 @@
+[
+  {
+    "file": "sources/certifi-2026.7.22.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+    "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+    "publisher_hash_checked": true
+  },
+  {
+    "file": "sources/tqdm-4.70.0.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/21/3b/6c24bec5be5e743ffd99576daa5cc077722fc7d5bbc00bd133fa0c698dc6/tqdm-4.70.0.tar.gz",
+    "sha256": "55b0b0dbd97462d06ebee91e4dac24ed4d4702be82b24f07e6c1d27e08cea220",
+    "publisher_hash_checked": true
+  },
+  {
+    "file": "sources/pywin32-b310.tar.gz",
+    "url": "https://codeload.github.com/mhammond/pywin32/tar.gz/refs/tags/b310",
+    "sha256": "b3e07c8c1383c0d6e75a360ed5d0d85edce30e6d7b67e9a070f0056156e1c5a3",
+    "publisher_hash_checked": false
+  },
+  {
+    "file": "upstream/OpenSSL-3.0.13-Apache.txt",
+    "url": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.0.13/LICENSE.txt",
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+    "publisher_hash_checked": false
+  },
+  {
+    "file": "upstream/flatbuffers-Apache.txt",
+    "url": "https://raw.githubusercontent.com/google/flatbuffers/master/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "publisher_hash_checked": false
+  },
+  {
+    "file": "upstream/tokenizers-Apache.txt",
+    "url": "https://raw.githubusercontent.com/huggingface/tokenizers/main/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "publisher_hash_checked": false
+  },
+  {
+    "file": "upstream/protobuf-BSD.txt",
+    "url": "https://raw.githubusercontent.com/protocolbuffers/protobuf/main/LICENSE",
+    "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+    "publisher_hash_checked": false
+  },
+  {
+    "file": "upstream/Inno-Setup.txt",
+    "url": "https://jrsoftware.org/files/is/license.txt",
+    "sha256": "2e5346868c2a18434489824e11d65c3031620f792fefc415d05f19cd441abf5c",
+    "publisher_hash_checked": false
+  },
+  {
+    "file": "upstream/Silero-VAD-MIT.txt",
+    "url": "https://raw.githubusercontent.com/snakers4/silero-vad/master/LICENSE",
+    "sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b",
+    "publisher_hash_checked": false
+  },
+  {
+    "component": "Intel OpenMP 2025.3.0",
+    "url": "https://files.pythonhosted.org/packages/79/69/05addedd727061b61a85b4fd989754edb628b5be1cd5d161727f98cf4d86/intel_openmp-2025.3.0-py2.py3-none-win_amd64.whl",
+    "wheel_sha256": "8ff899d01a41b92ffe0e618b221ea633127d16df726086082d381c431c31339d",
+    "dll_sha256": "982233366b0afcda1e0f55a0b134097e35b779613f54ddb69e685e6cd06b755f",
+    "dll_byte_identical_to_publisher_wheel": true
+  }
+]

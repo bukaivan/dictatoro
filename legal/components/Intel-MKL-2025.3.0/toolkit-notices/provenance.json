@@ -1,0 +1,45 @@
+{
+  "url": "https://registrationcenter-download.intel.com/akdlm/IRC_NAS/1f18901e-877d-469d-a41a-a10f11b39336/intel-oneapi-base-toolkit-2025.3.0.372_offline.exe",
+  "authenticode": "Valid; Intel Corporation",
+  "package": "intel.oneapi.win.mkl.runtime,v=2025.3.0+453/cupPayload.cup",
+  "package_sha256": "81b96a1c66d8268edf6fcd03c04a6a453dc0fb98eceec631094716077eb58d14",
+  "files": [
+    {
+      "file": "license.rtf",
+      "sha256": "d56da0d4f1f8ba97a2f912f03f6b782bad2f2baa5b0445e6f505b2e0f1bc38da"
+    },
+    {
+      "file": "third-party-programs-benchmarks.txt",
+      "sha256": "1f1224af12a7d3e51150ce6f762e32472076a31f6e44db41d3b651a7fa20f2f5"
+    },
+    {
+      "file": "third-party-programs-IntelMPI.txt",
+      "sha256": "82fa46762c37662a52ab9df58781813c1dc6c268ae2b6f9cf2d83183e706aa09"
+    },
+    {
+      "file": "third-party-programs-level-zero.txt",
+      "sha256": "cfe7d2ba4b4cd53271c7f91937e906256c0f14ea62ba33ffb556664b8d39aa59"
+    },
+    {
+      "file": "third-party-programs-oneMath.txt",
+      "sha256": "2ba4e9858c253331691370f4e8e3899ca6a5baa20907f189f5970635870b860d"
+    },
+    {
+      "file": "third-party-programs-oneTBB.txt",
+      "sha256": "d507da4fffae647ebc1bbb7e12cc5cca8087d36b0d78cc75caa96cae37688cb1"
+    },
+    {
+      "file": "third-party-programs-openmp.txt",
+      "sha256": "8fdfbbdfed13bca3641da35182e7ee1bb92a99f302ce8b0deb981ac1f18adee2"
+    },
+    {
+      "file": "third-party-programs-safestring.txt",
+      "sha256": "415000d1887939ffc6826e0ed3f099cebcab6aaeda2da0acb017110a456b3d42"
+    },
+    {
+      "file": "third-party-programs.txt",
+      "sha256": "6fb57367c2107b8b3347e0e9db10d368c7b9ea898a08132b2f841b24b86f076f"
+    }
+  ],
+  "scope": "Complete licensing directory from the version-matched toolkit, including nested notices. Not every optional toolkit component is linked into Dictatoro."
+}

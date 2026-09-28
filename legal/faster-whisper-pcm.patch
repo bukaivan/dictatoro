@@ -1,0 +1,26 @@
+--- upstream/faster_whisper/audio.py
++++ dictatoro/faster_whisper/audio.py
+@@ -12,7 +12,13 @@
+ 
+ from typing import BinaryIO, Union
+ 
+-import av
++# Dictatoro patch 2026-09-12: PyAV is optional for ndarray microphone input.
++try:
++    import av
++except ModuleNotFoundError as exc:
++    if exc.name != "av":
++        raise
++    av = None
+ import numpy as np
+ 
+ 
+@@ -34,6 +40,8 @@
+       If `split_stereo` is enabled, the function returns a 2-tuple with the
+       separated left and right channels.
+     """
++    if av is None:
++        raise RuntimeError("This Dictatoro build accepts PCM arrays; file decoding is not included.")
+     resampler = av.audio.resampler.AudioResampler(
+         format="s16",
+         layout="mono" if not split_stereo else "stereo",

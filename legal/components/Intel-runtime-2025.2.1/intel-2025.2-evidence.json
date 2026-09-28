@@ -1,0 +1,10 @@
+[
+  {
+    "Path": "intel-runtime-2025.2.1.exe",
+    "Hash": "EBEC8698A742D5A17E628C685C31C0A121643517235D07AE5D47ABA916DB493B"
+  },
+  {
+    "Path": "intel-compat/libiomp5md.dll",
+    "Hash": "D9D66ED25F1A0EA725FA3A41B22CFD5D182C19DBE4771D9C90CA02AD7466F6A1"
+  }
+]

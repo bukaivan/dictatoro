@@ -1,0 +1,173 @@
+{
+  "scope": "Notices from all pinned upstream submodules; includes optional and test components, not all linked into this wheel. Not a complete CUDA toolkit or Rust dependency review.",
+  "ctranslate2_version": "4.8.2",
+  "files": [
+    {
+      "file": "evidence/gitmodules.txt",
+      "url": "https://raw.githubusercontent.com/OpenNMT/CTranslate2/v4.8.2/.gitmodules",
+      "sha256": "5c91d8a3f142c0354e96a7a5122c78a2a1b6f735045aa4da74c474f55b6cedac"
+    },
+    {
+      "file": "evidence/CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/OpenNMT/CTranslate2/v4.8.2/CMakeLists.txt",
+      "sha256": "91d5204adbc65455ea3923920a351ea1a1008961b4ee670a036ba98bf01c52b6"
+    },
+    {
+      "file": "evidence/windows-build.sh",
+      "url": "https://raw.githubusercontent.com/OpenNMT/CTranslate2/v4.8.2/python/tools/prepare_build_environment_windows.sh",
+      "sha256": "413d8cec729bf4348939e5d8ce6f76195814e26e35cd406dff6100703f2a8115"
+    },
+    {
+      "file": "evidence/ct2-tree.json",
+      "url": "https://api.github.com/repos/OpenNMT/CTranslate2/git/trees/v4.8.2?recursive=1",
+      "sha256": "e4e003327825b14ee81defa2d7806dcfd5f9a22801c4047b76b29b3ac04b1de8"
+    },
+    {
+      "file": "evidence/cxxopts-tree.json",
+      "url": "https://api.github.com/repos/jarro2783/cxxopts/git/trees/44380e5a44706ab7347f400698c703eb2a196202?recursive=1",
+      "sha256": "d42bb893ffe8eea472a1bf9ba6c8c91593ec5d57af15876836291f9d1d95ee3b"
+    },
+    {
+      "file": "cxxopts/LICENSE",
+      "url": "https://raw.githubusercontent.com/jarro2783/cxxopts/44380e5a44706ab7347f400698c703eb2a196202/LICENSE",
+      "sha256": "aa324fbe633a96546bebca975fbbab65caa175894bd00cfa13d7335e7363400c",
+      "commit": "44380e5a44706ab7347f400698c703eb2a196202",
+      "git_blob_verified": true,
+      "upstream_repository": "jarro2783/cxxopts"
+    },
+    {
+      "file": "evidence/thrust-tree.json",
+      "url": "https://api.github.com/repos/NVIDIA/cccl/git/trees/b5fe509fd11a925f90d6495176707cc1184eed9d?recursive=1",
+      "sha256": "838141c7043776186269ec73bfecf96b8bea8b74f9e0c65f1d39937641075d9e"
+    },
+    {
+      "file": "thrust/LICENSE",
+      "url": "https://raw.githubusercontent.com/NVIDIA/cccl/b5fe509fd11a925f90d6495176707cc1184eed9d/LICENSE",
+      "sha256": "01b767dcd7d36f42efb608076741cf83f154a995e198028cb698aadc3a43b63b",
+      "commit": "b5fe509fd11a925f90d6495176707cc1184eed9d",
+      "git_blob_verified": true,
+      "upstream_repository": "NVIDIA/cccl"
+    },
+    {
+      "file": "thrust/cub/LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/NVIDIA/cccl/b5fe509fd11a925f90d6495176707cc1184eed9d/cub/LICENSE.TXT",
+      "sha256": "2e15eba2e130f3e80d9e91724c7dce3781ce99316324681ff54b00c1fc9759b3",
+      "commit": "b5fe509fd11a925f90d6495176707cc1184eed9d",
+      "git_blob_verified": true,
+      "upstream_repository": "NVIDIA/cccl"
+    },
+    {
+      "file": "thrust/cudax/LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/NVIDIA/cccl/b5fe509fd11a925f90d6495176707cc1184eed9d/cudax/LICENSE.TXT",
+      "sha256": "0d9736d9b6bc95365a4a8f4f9961f83106cf457bccb82c173d4fef7b3e78220c",
+      "commit": "b5fe509fd11a925f90d6495176707cc1184eed9d",
+      "git_blob_verified": true,
+      "upstream_repository": "NVIDIA/cccl"
+    },
+    {
+      "file": "thrust/docs/thrust/api_docs/algorithms/copying.rst",
+      "url": "https://raw.githubusercontent.com/NVIDIA/cccl/b5fe509fd11a925f90d6495176707cc1184eed9d/docs/thrust/api_docs/algorithms/copying.rst",
+      "sha256": "f08f0a6441bcf5e0721575b83216c642b148decc1cf25532ff87163be7a8babf",
+      "commit": "b5fe509fd11a925f90d6495176707cc1184eed9d",
+      "git_blob_verified": true,
+      "upstream_repository": "NVIDIA/cccl"
+    },
+    {
+      "file": "thrust/libcudacxx/LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/NVIDIA/cccl/b5fe509fd11a925f90d6495176707cc1184eed9d/libcudacxx/LICENSE.TXT",
+      "sha256": "f2905be651fc32d33ad754a74e318e0a19eae7a134a23b1b1a4eb7496bfc1d93",
+      "commit": "b5fe509fd11a925f90d6495176707cc1184eed9d",
+      "git_blob_verified": true,
+      "upstream_repository": "NVIDIA/cccl"
+    },
+    {
+      "file": "thrust/libcudacxx/test/LICENSE.TXT",
+      "url": "https://raw.githubusercontent.com/NVIDIA/cccl/b5fe509fd11a925f90d6495176707cc1184eed9d/libcudacxx/test/LICENSE.TXT",
+      "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+      "commit": "b5fe509fd11a925f90d6495176707cc1184eed9d",
+      "git_blob_verified": true,
+      "upstream_repository": "NVIDIA/cccl"
+    },
+    {
+      "file": "thrust/thrust/LICENSE",
+      "url": "https://raw.githubusercontent.com/NVIDIA/cccl/b5fe509fd11a925f90d6495176707cc1184eed9d/thrust/LICENSE",
+      "sha256": "9e42656b2b02223cee05e2344fee5673d9d5b731ac686ad1e3e543ace6ea6b95",
+      "commit": "b5fe509fd11a925f90d6495176707cc1184eed9d",
+      "git_blob_verified": true,
+      "upstream_repository": "NVIDIA/cccl"
+    },
+    {
+      "file": "evidence/googletest-tree.json",
+      "url": "https://api.github.com/repos/google/googletest/git/trees/f8d7d77c06936315286eb55f8de22cd23c188571?recursive=1",
+      "sha256": "36975d537bca998cb5d1b4ce549c82f2fa99f3fab8169c264906c38e2507b6e5"
+    },
+    {
+      "file": "googletest/LICENSE",
+      "url": "https://raw.githubusercontent.com/google/googletest/f8d7d77c06936315286eb55f8de22cd23c188571/LICENSE",
+      "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138",
+      "commit": "f8d7d77c06936315286eb55f8de22cd23c188571",
+      "git_blob_verified": true,
+      "upstream_repository": "google/googletest"
+    },
+    {
+      "file": "evidence/cpu_features-tree.json",
+      "url": "https://api.github.com/repos/google/cpu_features/git/trees/8a494eb1e158ec2050e5f699a504fbc9b896a43b?recursive=1",
+      "sha256": "39185f1ef13dee4381689011caf81115a434f33cc56795b93c0cfc9a10d1be5b"
+    },
+    {
+      "file": "cpu_features/LICENSE",
+      "url": "https://raw.githubusercontent.com/google/cpu_features/8a494eb1e158ec2050e5f699a504fbc9b896a43b/LICENSE",
+      "sha256": "af272c1b4dd08dd61d43e001d3134119d03ca7a2b057a64f7355fdf27fbea3dd",
+      "commit": "8a494eb1e158ec2050e5f699a504fbc9b896a43b",
+      "git_blob_verified": true,
+      "upstream_repository": "google/cpu_features"
+    },
+    {
+      "file": "evidence/spdlog-tree.json",
+      "url": "https://api.github.com/repos/gabime/spdlog/git/trees/76fb40d95455f249bd70824ecfcae7a8f0930fa3?recursive=1",
+      "sha256": "82555f293f48703e0e77a7c3eae90f22bcab18a39621eaaa65c18ce41b4826aa"
+    },
+    {
+      "file": "spdlog/LICENSE",
+      "url": "https://raw.githubusercontent.com/gabime/spdlog/76fb40d95455f249bd70824ecfcae7a8f0930fa3/LICENSE",
+      "sha256": "a7241a379cb98d37788f82c2fc2e484c3ae85dae881fd3406f0637644850926f",
+      "commit": "76fb40d95455f249bd70824ecfcae7a8f0930fa3",
+      "git_blob_verified": true,
+      "upstream_repository": "gabime/spdlog"
+    },
+    {
+      "file": "evidence/ruy-tree.json",
+      "url": "https://api.github.com/repos/google/ruy/git/trees/363f252289fb7a1fba1703d99196524698cb884d?recursive=1",
+      "sha256": "8a0e0fd4da95e08d5f686420a2c768f5a71cfe1912bd06a5602c4272388b9bfc"
+    },
+    {
+      "file": "ruy/LICENSE",
+      "url": "https://raw.githubusercontent.com/google/ruy/363f252289fb7a1fba1703d99196524698cb884d/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "commit": "363f252289fb7a1fba1703d99196524698cb884d",
+      "git_blob_verified": true,
+      "upstream_repository": "google/ruy"
+    },
+    {
+      "file": "evidence/cutlass-tree.json",
+      "url": "https://api.github.com/repos/NVIDIA/cutlass/git/trees/bbe579a9e3beb6ea6626d9227ec32d0dae119a49?recursive=1",
+      "sha256": "5b22fc46e6f89a39ae7f93dee052f0079ecbb263df7eadd43deae16d3d37d875"
+    },
+    {
+      "file": "cutlass/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/NVIDIA/cutlass/bbe579a9e3beb6ea6626d9227ec32d0dae119a49/LICENSE.txt",
+      "sha256": "6fc6ad419e4d26571a14c7c4d26b65345865c20dd8686ddcf5e8673f54d3d233",
+      "commit": "bbe579a9e3beb6ea6626d9227ec32d0dae119a49",
+      "git_blob_verified": true,
+      "upstream_repository": "NVIDIA/cutlass"
+    },
+    {
+      "file": "cutlass/python/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/NVIDIA/cutlass/bbe579a9e3beb6ea6626d9227ec32d0dae119a49/python/LICENSE.txt",
+      "sha256": "6fc6ad419e4d26571a14c7c4d26b65345865c20dd8686ddcf5e8673f54d3d233",
+      "commit": "bbe579a9e3beb6ea6626d9227ec32d0dae119a49",
+      "git_blob_verified": true,
+      "upstream_repository": "NVIDIA/cutlass"
+    }
+  ]
+}

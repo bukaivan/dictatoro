@@ -1,0 +1,28 @@
+# Local environments and build products
+.venv/
+runtime/
+build/
+dist/
+__pycache__/
+*.py[cod]
+Dictator.exe
+*-Setup.exe
+*-TestSetup.exe
+
+# User data, credentials and recordings
+.env
+.env.*
+settings.json
+settings.tmp
+models/
+*.log
+*.wav
+*.mp3
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Corresponding third-party source archives in legal/sources MUST remain included.
+
+.test-data/

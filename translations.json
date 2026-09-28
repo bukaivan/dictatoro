@@ -1,0 +1,1088 @@
+{
+  "Dictator 0.2 · Локальный голосовой ввод": {
+    "en": "Dictator 0.2 · Local voice typing",
+    "pl": "Dictator 0.2 · Lokalne dyktowanie",
+    "es": "Dictator 0.2 · Dictado local",
+    "de": "Dictator 0.2 · Lokale Spracheingabe",
+    "fr": "Dictator 0.3 · Saisie vocale locale",
+    "ar": "Dictator 0.3 · الكتابة الصوتية المحلية",
+    "zh": "Dictator 0.3 · 本地语音输入"
+  },
+  "Загрузите модель, чтобы начать": {
+    "en": "Load a model to begin",
+    "pl": "Wczytaj model, aby rozpocząć",
+    "es": "Carga un modelo para empezar",
+    "de": "Zum Starten ein Modell laden",
+    "fr": "Chargez un modèle pour commencer",
+    "ar": "حمّل نموذجًا للبدء",
+    "zh": "请先加载模型"
+  },
+  "Мышь: нажатие колеса": {
+    "en": "Mouse: middle button",
+    "pl": "Mysz: przycisk kółka",
+    "es": "Ratón: botón de la rueda",
+    "de": "Maus: Mausradtaste",
+    "fr": "Souris : bouton de la molette",
+    "ar": "الفأرة: زر العجلة",
+    "zh": "鼠标：滚轮按键"
+  },
+  "Мышь: боковая кнопка 1": {
+    "en": "Mouse: side button 1",
+    "pl": "Mysz: przycisk boczny 1",
+    "es": "Ratón: botón lateral 1",
+    "de": "Maus: Seitentaste 1",
+    "fr": "Souris : bouton latéral 1",
+    "ar": "الفأرة: الزر الجانبي 1",
+    "zh": "鼠标：侧键 1"
+  },
+  "Мышь: боковая кнопка 2": {
+    "en": "Mouse: side button 2",
+    "pl": "Mysz: przycisk boczny 2",
+    "es": "Ratón: botón lateral 2",
+    "de": "Maus: Seitentaste 2",
+    "fr": "Souris : bouton latéral 2",
+    "ar": "الفأرة: الزر الجانبي 2",
+    "zh": "鼠标：侧键 2"
+  },
+  "Своя клавиша…": {
+    "en": "Custom key…",
+    "pl": "Własny klawisz…",
+    "es": "Tecla personalizada…",
+    "de": "Eigene Taste…",
+    "fr": "Touche personnalisée…",
+    "ar": "مفتاح مخصص…",
+    "zh": "自定义按键…"
+  },
+  "Кнопка записи": {
+    "en": "Recording button",
+    "pl": "Przycisk nagrywania",
+    "es": "Botón de grabación",
+    "de": "Aufnahmetaste",
+    "fr": "Bouton d’enregistrement",
+    "ar": "زر التسجيل",
+    "zh": "录音按键"
+  },
+  "Язык интерфейса": {
+    "en": "Interface language",
+    "pl": "Język interfejsu",
+    "es": "Idioma de la interfaz",
+    "de": "Oberflächensprache",
+    "fr": "Langue de l’interface",
+    "ar": "لغة الواجهة",
+    "zh": "界面语言"
+  },
+  "Запускать при входе в Windows (в трее)": {
+    "en": "Start at Windows sign-in (in tray)",
+    "pl": "Uruchamiaj przy logowaniu do Windows (w zasobniku)",
+    "es": "Iniciar al entrar en Windows (en la bandeja)",
+    "de": "Bei Windows-Anmeldung starten (im Infobereich)",
+    "fr": "Démarrer à la connexion Windows (en arrière-plan)",
+    "ar": "التشغيل عند تسجيل الدخول إلى Windows (في الخلفية)",
+    "zh": "登录 Windows 时启动（在托盘中运行）"
+  },
+  "Модель Whisper": {
+    "en": "Whisper model",
+    "pl": "Model Whisper",
+    "es": "Modelo Whisper",
+    "de": "Whisper-Modell",
+    "fr": "Modèle Whisper",
+    "ar": "نموذج Whisper",
+    "zh": "Whisper 模型"
+  },
+  "Язык речи (auto — автоматически)": {
+    "en": "Speech language (auto = automatic)",
+    "pl": "Język mowy (auto = automatycznie)",
+    "es": "Idioma del dictado (auto = automático)",
+    "de": "Sprache der Aufnahme (auto = automatisch)",
+    "fr": "Langue de la parole (auto = automatique)",
+    "ar": "لغة الكلام (auto = تلقائي)",
+    "zh": "语音语言（auto 为自动）"
+  },
+  "Системный микрофон": {
+    "en": "Default microphone",
+    "pl": "Domyślny mikrofon",
+    "es": "Micrófono predeterminado",
+    "de": "Standardmikrofon",
+    "fr": "Microphone par défaut",
+    "ar": "الميكروفون الافتراضي",
+    "zh": "默认麦克风"
+  },
+  "Микрофон": {
+    "en": "Microphone",
+    "pl": "Mikrofon",
+    "es": "Micrófono",
+    "de": "Mikrofon",
+    "fr": "Microphone",
+    "ar": "الميكروفون",
+    "zh": "麦克风"
+  },
+  "tiny — быстрее · base — баланс · small/medium — точнее, медленнее.\nПервая загрузка модели требует интернета. Записи не сохраняются.\nКнопка записи резервируется после загрузки модели.\nЯзык интерфейса изменится после сохранения и перезапуска.": {
+    "en": "tiny: fastest · base: balanced · small/medium: more accurate, slower.\nInternet is needed for the first model download. Audio is not saved.\nThe recording button is reserved once the model is ready.\nSave and restart to change the interface language.",
+    "pl": "tiny: najszybszy · base: zrównoważony · small/medium: dokładniejszy, wolniejszy.\nPierwsze pobranie modelu wymaga internetu. Nagrania nie są zapisywane.\nPrzycisk nagrywania jest zarezerwowany po wczytaniu modelu.\nZmiana języka wymaga zapisania i ponownego uruchomienia.",
+    "es": "tiny: más rápido · base: equilibrado · small/medium: más preciso, más lento.\nLa primera descarga del modelo requiere internet. No se guarda el audio.\nEl botón queda reservado cuando el modelo está listo.\nGuarda y reinicia para cambiar el idioma de la interfaz.",
+    "de": "tiny: am schnellsten · base: ausgewogen · small/medium: genauer, langsamer.\nDer erste Modelldownload benötigt Internet. Audio wird nicht gespeichert.\nDie Aufnahmetaste wird reserviert, sobald das Modell bereit ist.\nFür einen Sprachwechsel speichern und neu starten.",
+    "fr": "tiny : rapide · base : équilibré · small/medium : plus précis, plus lent.\nInternet est nécessaire au premier téléchargement. L’audio n’est pas enregistré.\nLe bouton est réservé une fois le modèle chargé.\nEnregistrez et redémarrez pour changer de langue.",
+    "ar": "tiny: الأسرع · base: متوازن · small/medium: أدق وأبطأ.\nيلزم الإنترنت لتنزيل النموذج أول مرة. لا يُحفظ الصوت.\nيُحجز زر التسجيل بعد تحميل النموذج.\nاحفظ وأعد التشغيل لتغيير اللغة.",
+    "zh": "tiny：最快 · base：均衡 · small/medium：更准确、速度较慢。\n首次下载模型需要联网，音频不会保存。\n模型加载后，录音按键将被占用。\n保存并重启以切换语言。"
+  },
+  "Сохранить настройки и загрузить модель": {
+    "en": "Save settings and load model",
+    "pl": "Zapisz ustawienia i wczytaj model",
+    "es": "Guardar ajustes y cargar modelo",
+    "de": "Einstellungen speichern und Modell laden",
+    "fr": "Enregistrer les paramètres et charger le modèle",
+    "ar": "حفظ الإعدادات وتحميل النموذج",
+    "zh": "保存设置并加载模型"
+  },
+  "Уровень микрофона": {
+    "en": "Microphone level",
+    "pl": "Poziom mikrofonu",
+    "es": "Nivel del micrófono",
+    "de": "Mikrofonpegel",
+    "fr": "Niveau du microphone",
+    "ar": "مستوى الميكروفون",
+    "zh": "麦克风音量"
+  },
+  "Здесь появится распознанный текст": {
+    "en": "Recognized text will appear here",
+    "pl": "Tutaj pojawi się rozpoznany tekst",
+    "es": "Aquí aparecerá el texto reconocido",
+    "de": "Hier erscheint der erkannte Text",
+    "fr": "Le texte reconnu apparaîtra ici",
+    "ar": "سيظهر النص المتعرّف عليه هنا",
+    "zh": "识别出的文字将显示在这里"
+  },
+  "Копировать текст": {
+    "en": "Copy text",
+    "pl": "Kopiuj tekst",
+    "es": "Copiar texto",
+    "de": "Text kopieren",
+    "fr": "Copier le texte",
+    "ar": "نسخ النص",
+    "zh": "复制文字"
+  },
+  "Свернуть в трей": {
+    "en": "Minimize to tray",
+    "pl": "Zwiń do zasobnika",
+    "es": "Minimizar a la bandeja",
+    "de": "In den Infobereich minimieren",
+    "fr": "Réduire dans la zone de notification",
+    "ar": "تصغير إلى علبة النظام",
+    "zh": "最小化到托盘"
+  },
+  "Открыть настройки": {
+    "en": "Open settings",
+    "pl": "Otwórz ustawienia",
+    "es": "Abrir ajustes",
+    "de": "Einstellungen öffnen",
+    "fr": "Ouvrir les paramètres",
+    "ar": "فتح الإعدادات",
+    "zh": "打开设置"
+  },
+  "Выход": {
+    "en": "Exit",
+    "pl": "Zakończ",
+    "es": "Salir",
+    "de": "Beenden",
+    "fr": "Quitter",
+    "ar": "خروج",
+    "zh": "退出"
+  },
+  "Распознавание на компьютере…": {
+    "en": "Transcribing locally…",
+    "pl": "Lokalne rozpoznawanie mowy…",
+    "es": "Transcribiendo localmente…",
+    "de": "Lokale Spracherkennung…",
+    "fr": "Transcription locale…",
+    "ar": "جارٍ تحويل الكلام محليًا…",
+    "zh": "正在本地转写…"
+  },
+  "Приложение уже запущено. Откройте его через значок в трее.": {
+    "en": "Dictator is already running. Open it using the tray icon.",
+    "pl": "Dictator już działa. Otwórz go za pomocą ikony w zasobniku.",
+    "es": "Dictator ya está abierto. Ábrelo desde el icono de la bandeja.",
+    "de": "Dictator läuft bereits. Über das Symbol im Infobereich öffnen.",
+    "fr": "Dictator est déjà ouvert. Utilisez son icône de notification.",
+    "ar": "التطبيق يعمل بالفعل. افتحه من أيقونة علبة النظام.",
+    "zh": "Dictator 已在运行，请通过托盘图标打开。"
+  },
+  "Ваш голос → текст. Всё на вашем компьютере.": {
+    "en": "Your voice → text. Entirely on your computer.",
+    "pl": "Twój głos → tekst. Wszystko na Twoim komputerze.",
+    "es": "Tu voz → texto. Todo en tu ordenador.",
+    "de": "Ihre Stimme → Text. Alles auf Ihrem Computer.",
+    "fr": "Votre voix → du texte. Tout reste sur votre ordinateur.",
+    "ar": "صوتك ← نص. كل شيء على جهازك.",
+    "zh": "将声音变成文字，一切都在您的电脑上完成。"
+  },
+  "Последний результат": {
+    "en": "Last result",
+    "pl": "Ostatni wynik",
+    "es": "Último resultado",
+    "de": "Letztes Ergebnis",
+    "fr": "Dernier résultat",
+    "ar": "آخر نتيجة",
+    "zh": "最近的结果"
+  },
+  "Сначала дождитесь завершения записи или распознавания.": {
+    "en": "Wait for recording or transcription to finish.",
+    "pl": "Poczekaj na zakończenie nagrywania lub rozpoznawania.",
+    "es": "Espera a que termine la grabación o transcripción.",
+    "de": "Warten Sie, bis Aufnahme oder Erkennung abgeschlossen ist.",
+    "fr": "Attendez la fin de l’enregistrement ou de la transcription.",
+    "ar": "انتظر انتهاء التسجيل أو التحويل.",
+    "zh": "请等待录音或转写完成。"
+  },
+  "Проверка локальной модели…": {
+    "en": "Checking local model…",
+    "pl": "Sprawdzanie lokalnego modelu…",
+    "es": "Comprobando el modelo local…",
+    "de": "Lokales Modell wird geprüft…",
+    "fr": "Vérification du modèle local…",
+    "ar": "جارٍ فحص النموذج المحلي…",
+    "zh": "正在检查本地模型…"
+  },
+  "Загрузка модели… Это может занять несколько минут.": {
+    "en": "Loading model… This may take a few minutes.",
+    "pl": "Wczytywanie modelu… To może potrwać kilka minut.",
+    "es": "Cargando modelo… Puede tardar unos minutos.",
+    "de": "Modell wird geladen… Dies kann einige Minuten dauern.",
+    "fr": "Chargement du modèle… Cela peut prendre quelques minutes.",
+    "ar": "جارٍ تحميل النموذج… قد يستغرق ذلك بضع دقائق.",
+    "zh": "正在加载模型，可能需要几分钟…"
+  },
+  "● Запись… Отпустите кнопку для вставки текста.": {
+    "en": "● Recording… Release the button to insert text.",
+    "pl": "● Nagrywanie… Zwolnij przycisk, aby wstawić tekst.",
+    "es": "● Grabando… Suelta el botón para insertar el texto.",
+    "de": "● Aufnahme… Taste loslassen, um Text einzufügen.",
+    "fr": "● Enregistrement… Relâchez le bouton pour insérer le texte.",
+    "ar": "● جارٍ التسجيل… اترك الزر لإدراج النص.",
+    "zh": "● 正在录音，松开按键即可插入文字。"
+  },
+  "Слишком короткая запись. Удерживайте клавишу и говорите.": {
+    "en": "Recording too short. Hold the recording button and speak.",
+    "pl": "Nagranie za krótkie. Przytrzymaj przycisk i mów.",
+    "es": "Grabación demasiado corta. Mantén pulsado el botón y habla.",
+    "de": "Aufnahme zu kurz. Aufnahmetaste gedrückt halten und sprechen.",
+    "fr": "Enregistrement trop court. Maintenez le bouton et parlez.",
+    "ar": "التسجيل قصير جدًا. اضغط مع الاستمرار وتحدث.",
+    "zh": "录音太短，请按住录音键说话。"
+  },
+  "Окно изменилось. Текст сохранён здесь — нажмите «Копировать текст».": {
+    "en": "The window changed. Text is kept here — click Copy text.",
+    "pl": "Okno się zmieniło. Tekst jest tutaj — kliknij Kopiuj tekst.",
+    "es": "La ventana cambió. El texto está aquí: pulsa Copiar texto.",
+    "de": "Das Fenster wurde gewechselt. Text ist hier verfügbar: Text kopieren.",
+    "fr": "La fenêtre a changé. Le texte reste ici : cliquez sur Copier le texte.",
+    "ar": "تغيّرت النافذة. النص محفوظ هنا؛ اضغط على نسخ النص.",
+    "zh": "窗口已切换，文字已保留在此处，请点击“复制文字”。"
+  },
+  "Текст готов": {
+    "en": "Text ready",
+    "pl": "Tekst gotowy",
+    "es": "Texto listo",
+    "de": "Text bereit",
+    "fr": "Texte prêt",
+    "ar": "النص جاهز",
+    "zh": "文字已就绪"
+  },
+  "Откройте Dictator, чтобы скопировать результат.": {
+    "en": "Open Dictator to copy the result.",
+    "pl": "Otwórz Dictator, aby skopiować wynik.",
+    "es": "Abre Dictator para copiar el resultado.",
+    "de": "Dictator öffnen, um das Ergebnis zu kopieren.",
+    "fr": "Ouvrez Dictator pour copier le résultat.",
+    "ar": "افتح Dictator لنسخ النتيجة.",
+    "zh": "打开 Dictator 以复制结果。"
+  },
+  "Зажата клавиша-модификатор. Скопируйте результат из окна приложения.": {
+    "en": "A modifier key is held. Copy the result from the app.",
+    "pl": "Przytrzymany klawisz modyfikujący. Skopiuj wynik z aplikacji.",
+    "es": "Hay una tecla modificadora pulsada. Copia el resultado desde la aplicación.",
+    "de": "Eine Zusatztaste ist gedrückt. Ergebnis aus der App kopieren.",
+    "fr": "Une touche de modification est enfoncée. Copiez le résultat depuis l’application.",
+    "ar": "أحد مفاتيح التعديل مضغوط. انسخ النتيجة من التطبيق.",
+    "zh": "有修饰键处于按下状态，请从应用中复制结果。"
+  },
+  "Дождитесь завершения текущей загрузки или распознавания перед выходом.": {
+    "en": "Wait for the current download or transcription before exiting.",
+    "pl": "Przed wyjściem poczekaj na zakończenie pobierania lub rozpoznawania.",
+    "es": "Espera a que termine la descarga o transcripción antes de salir.",
+    "de": "Vor dem Beenden den Download oder die Erkennung abwarten.",
+    "fr": "Attendez la fin du téléchargement ou de la transcription avant de quitter.",
+    "ar": "انتظر انتهاء التنزيل أو التحويل قبل الخروج.",
+    "zh": "退出前请等待下载或转写完成。"
+  },
+  "Своя: ": {
+    "en": "Custom: ",
+    "pl": "Własny: ",
+    "es": "Personalizada: ",
+    "de": "Eigene: ",
+    "fr": "Personnalisée : ",
+    "ar": "مخصص: ",
+    "zh": "自定义："
+  },
+  "Автозапуск включён.": {
+    "en": "Startup enabled.",
+    "pl": "Autostart włączony.",
+    "es": "Inicio automático activado.",
+    "de": "Autostart aktiviert.",
+    "fr": "Démarrage automatique activé.",
+    "ar": "تم تفعيل التشغيل التلقائي.",
+    "zh": "已开启自动启动。"
+  },
+  "Автозапуск выключен.": {
+    "en": "Startup disabled.",
+    "pl": "Autostart wyłączony.",
+    "es": "Inicio automático desactivado.",
+    "de": "Autostart deaktiviert.",
+    "fr": "Démarrage automatique désactivé.",
+    "ar": "تم إيقاف التشغيل التلقائي.",
+    "zh": "已关闭自动启动。"
+  },
+  "Язык сохранён. Перезапустите Dictator через меню значка в трее.": {
+    "en": "Language saved. Exit Dictator using its tray menu and start it again.",
+    "pl": "Język zapisany. Zamknij Dictator przez menu w zasobniku i uruchom ponownie.",
+    "es": "Idioma guardado. Cierra Dictator desde la bandeja y vuelve a abrirlo.",
+    "de": "Sprache gespeichert. Dictator über das Infobereich-Menü beenden und neu starten.",
+    "fr": "Langue enregistrée. Quittez Dictator via son icône puis relancez-le.",
+    "ar": "تم حفظ اللغة. أغلق التطبيق من علبة النظام ثم شغّله مجددًا.",
+    "zh": "语言已保存，请通过托盘菜单退出并重新打开 Dictator。"
+  },
+  "Речь не обнаружена. Попробуйте говорить ближе к микрофону.": {
+    "en": "No speech detected. Try speaking closer to the microphone.",
+    "pl": "Nie wykryto mowy. Spróbuj mówić bliżej mikrofonu.",
+    "es": "No se detectó voz. Intenta hablar más cerca del micrófono.",
+    "de": "Keine Sprache erkannt. Sprechen Sie näher am Mikrofon.",
+    "fr": "Aucune parole détectée. Essayez de parler plus près du microphone.",
+    "ar": "لم يُكتشف كلام. حاول الاقتراب من الميكروفون.",
+    "zh": "未检测到语音，请靠近麦克风说话。"
+  },
+  "Окно изменилось. Результат находится в буфере обмена.": {
+    "en": "The window changed. The result is in the clipboard.",
+    "pl": "Okno się zmieniło. Wynik jest w schowku.",
+    "es": "La ventana cambió. El resultado está en el portapapeles.",
+    "de": "Das Fenster wurde gewechselt. Das Ergebnis liegt in der Zwischenablage.",
+    "fr": "La fenêtre a changé. Le résultat est dans le presse-papiers.",
+    "ar": "تغيّرت النافذة. النتيجة في الحافظة.",
+    "zh": "窗口已切换，结果已放入剪贴板。"
+  },
+  "Текст отправлен в активное поле и оставлен в буфере обмена.": {
+    "en": "Text sent to the active field and kept in the clipboard.",
+    "pl": "Tekst wysłany do aktywnego pola i zachowany w schowku.",
+    "es": "Texto enviado al campo activo y guardado en el portapapeles.",
+    "de": "Text an das aktive Feld gesendet und in der Zwischenablage behalten.",
+    "fr": "Texte envoyé au champ actif et conservé dans le presse-papiers.",
+    "ar": "أُرسل النص إلى الحقل النشط وبقي في الحافظة.",
+    "zh": "文字已发送到当前输入框，并保留在剪贴板中。"
+  },
+  "Не удалось изменить автозапуск: ": {
+    "en": "Could not change startup: ",
+    "pl": "Nie można zmienić autostartu: ",
+    "es": "No se pudo cambiar el inicio automático: ",
+    "de": "Autostart konnte nicht geändert werden: ",
+    "fr": "Impossible de modifier le démarrage automatique : ",
+    "ar": "تعذّر تغيير التشغيل التلقائي: ",
+    "zh": "无法更改自动启动设置："
+  },
+  ". Нажмите «Сохранить настройки».": {
+    "en": ". Click Save settings.",
+    "pl": ". Kliknij Zapisz ustawienia.",
+    "es": ". Pulsa Guardar ajustes.",
+    "de": ". Klicken Sie auf Einstellungen speichern.",
+    "fr": ". Cliquez sur Enregistrer les paramètres.",
+    "ar": ". اضغط على حفظ الإعدادات.",
+    "zh": "。请点击“保存设置”。"
+  },
+  "Не удалось выбрать клавишу: ": {
+    "en": "Could not select key: ",
+    "pl": "Nie można wybrać klawisza: ",
+    "es": "No se pudo seleccionar la tecla: ",
+    "de": "Taste konnte nicht ausgewählt werden: ",
+    "fr": "Impossible de choisir la touche : ",
+    "ar": "تعذّر اختيار المفتاح: ",
+    "zh": "无法选择按键："
+  },
+  " и говорите.": {
+    "en": " and speak.",
+    "pl": " i mów.",
+    "es": " y habla.",
+    "de": " und sprechen Sie.",
+    "fr": " et parlez.",
+    "ar": " وتحدث.",
+    "zh": "并说话。"
+  },
+  "Не удалось сохранить настройки: ": {
+    "en": "Could not save settings: ",
+    "pl": "Nie można zapisać ustawień: ",
+    "es": "No se pudieron guardar los ajustes: ",
+    "de": "Einstellungen konnten nicht gespeichert werden: ",
+    "fr": "Impossible d’enregistrer les paramètres : ",
+    "ar": "تعذّر حفظ الإعدادات: ",
+    "zh": "无法保存设置："
+  },
+  "Ошибка микрофона: ": {
+    "en": "Microphone error: ",
+    "pl": "Błąd mikrofonu: ",
+    "es": "Error del micrófono: ",
+    "de": "Mikrofonfehler: ",
+    "fr": "Erreur du microphone : ",
+    "ar": "خطأ في الميكروفون: ",
+    "zh": "麦克风错误："
+  },
+  "В записи были пропуски звука; проверьте текст.": {
+    "en": "Audio dropouts occurred; please check the text.",
+    "pl": "Wystąpiły przerwy w dźwięku; sprawdź tekst.",
+    "es": "Hubo cortes de audio; revisa el texto.",
+    "de": "Audioaussetzer erkannt; bitte Text prüfen.",
+    "fr": "Des coupures audio ont été détectées ; vérifiez le texte.",
+    "ar": "حدثت انقطاعات في الصوت؛ راجع النص.",
+    "zh": "音频存在中断，请检查文字。"
+  },
+  "Автовставка не удалась. Нажмите «Копировать текст». ": {
+    "en": "Automatic paste failed. Click Copy text. ",
+    "pl": "Automatyczne wklejanie nie powiodło się. Kliknij Kopiuj tekst. ",
+    "es": "Falló el pegado automático. Pulsa Copiar texto. ",
+    "de": "Automatisches Einfügen fehlgeschlagen. Klicken Sie auf Text kopieren. ",
+    "fr": "Insertion automatique impossible. Cliquez sur Copier le texte. ",
+    "ar": "تعذّر اللصق التلقائي. اضغط على نسخ النص. ",
+    "zh": "自动粘贴失败，请点击“复制文字”。"
+  },
+  "Выбрана ": {
+    "en": "Selected ",
+    "pl": "Wybrano ",
+    "es": "Seleccionada ",
+    "de": "Ausgewählt: ",
+    "fr": "Sélection : ",
+    "ar": "تم اختيار ",
+    "zh": "已选择："
+  },
+  "Сохранено. Удерживайте ": {
+    "en": "Saved. Hold ",
+    "pl": "Zapisano. Przytrzymaj ",
+    "es": "Guardado. Mantén pulsado ",
+    "de": "Gespeichert. Halten Sie ",
+    "fr": "Enregistré. Maintenez ",
+    "ar": "تم الحفظ. اضغط مع الاستمرار على ",
+    "zh": "已保存，请按住"
+  },
+  "Нажмите «Сохранить настройки и загрузить модель».": {
+    "en": "Click Save settings and load model.",
+    "pl": "Kliknij Zapisz ustawienia i wczytaj model.",
+    "es": "Pulsa Guardar ajustes y cargar modelo.",
+    "de": "Klicken Sie auf Einstellungen speichern und Modell laden.",
+    "fr": "Cliquez sur Enregistrer les paramètres et charger le modèle.",
+    "ar": "اضغط على حفظ الإعدادات وتحميل النموذج.",
+    "zh": "请点击“保存设置并加载模型”。"
+  },
+  "Готово. Удерживайте ": {
+    "en": "Ready. Hold ",
+    "pl": "Gotowe. Przytrzymaj ",
+    "es": "Listo. Mantén pulsado ",
+    "de": "Bereit. Halten Sie ",
+    "fr": "Prêt. Maintenez ",
+    "ar": "جاهز. اضغط مع الاستمرار على ",
+    "zh": "已就绪，请按住"
+  },
+  "Не удалось назначить клавишу: ": {
+    "en": "Could not assign key: ",
+    "pl": "Nie można przypisać klawisza: ",
+    "es": "No se pudo asignar la tecla: ",
+    "de": "Taste konnte nicht zugewiesen werden: ",
+    "fr": "Impossible d’attribuer la touche : ",
+    "ar": "تعذّر تعيين المفتاح: ",
+    "zh": "无法分配按键："
+  },
+  "Ошибка распознавания: ": {
+    "en": "Transcription error: ",
+    "pl": "Błąd rozpoznawania: ",
+    "es": "Error de transcripción: ",
+    "de": "Spracherkennungsfehler: ",
+    "fr": "Erreur de transcription : ",
+    "ar": "خطأ في تحويل الكلام: ",
+    "zh": "转写错误："
+  },
+  "Ошибка загрузки: ": {
+    "en": "Model loading error: ",
+    "pl": "Błąd wczytywania modelu: ",
+    "es": "Error al cargar el modelo: ",
+    "de": "Fehler beim Laden des Modells: ",
+    "fr": "Erreur de chargement du modèle : ",
+    "ar": "خطأ في تحميل النموذج: ",
+    "zh": "模型加载错误："
+  },
+  "Назначить свою клавишу": {
+    "en": "Assign a custom key",
+    "pl": "Przypisz własny klawisz",
+    "es": "Asignar una tecla personalizada",
+    "de": "Eigene Taste zuweisen",
+    "fr": "Attribuer une touche personnalisée",
+    "ar": "تعيين مفتاح مخصص",
+    "zh": "分配自定义按键"
+  },
+  "Нажмите и отпустите одну клавишу.\nНапример: Caps Lock, букву, пробел или кнопку NumPad.": {
+    "en": "Press and release one key.\nFor example: Caps Lock, a letter, Space or a NumPad key.",
+    "pl": "Naciśnij i zwolnij jeden klawisz.\nNa przykład: Caps Lock, literę, spację lub klawisz NumPad.",
+    "es": "Pulsa y suelta una tecla.\nPor ejemplo: Bloq Mayús, una letra, espacio o una tecla numérica.",
+    "de": "Eine Taste drücken und loslassen.\nZum Beispiel: Feststelltaste, Buchstabe, Leertaste oder Ziffernblock.",
+    "fr": "Appuyez sur une touche et relâchez-la.\nPar exemple : Verr. Maj., une lettre, Espace ou une touche du pavé numérique.",
+    "ar": "اضغط على مفتاح ثم اتركه.\nمثل Caps Lock أو حرف أو المسافة أو مفتاح من لوحة الأرقام.",
+    "zh": "按下并松开一个按键。\n例如 Caps Lock、字母、空格或数字小键盘按键。"
+  },
+  "Выбранная клавиша будет занята диктовкой.\nОтмена — кнопкой ниже. Ожидание: 20 секунд.": {
+    "en": "The selected key will be reserved for dictation.\nCancel using the button below. Timeout: 20 seconds.",
+    "pl": "Wybrany klawisz będzie zarezerwowany do dyktowania.\nAnuluj przyciskiem poniżej. Limit: 20 sekund.",
+    "es": "La tecla quedará reservada para dictar.\nCancela con el botón inferior. Tiempo límite: 20 segundos.",
+    "de": "Die Taste wird für das Diktieren reserviert.\nMit der Schaltfläche unten abbrechen. Zeitlimit: 20 Sekunden.",
+    "fr": "La touche sera réservée à la dictée.\nAnnulez avec le bouton ci-dessous. Délai : 20 secondes.",
+    "ar": "سيُحجز المفتاح للإملاء.\nللإلغاء استخدم الزر أدناه. المهلة: 20 ثانية.",
+    "zh": "该按键将用于语音输入。\n点击下方按钮取消，等待时间为 20 秒。"
+  },
+  "Отмена": {
+    "en": "Cancel",
+    "pl": "Anuluj",
+    "es": "Cancelar",
+    "de": "Abbrechen",
+    "fr": "Annuler",
+    "ar": "إلغاء",
+    "zh": "取消"
+  },
+  "\nОтпустите клавишу…": {
+    "en": "\nRelease the key…",
+    "pl": "\nZwolnij klawisz…",
+    "es": "\nSuelta la tecla…",
+    "de": "\nTaste loslassen…",
+    "fr": "\nRelâchez la touche…",
+    "ar": "\nاترك المفتاح…",
+    "zh": "\n请松开按键…"
+  },
+  "Выбрана: ": {
+    "en": "Selected: ",
+    "pl": "Wybrano: ",
+    "es": "Seleccionada: ",
+    "de": "Ausgewählt: ",
+    "fr": "Sélection : ",
+    "ar": "تم اختيار: ",
+    "zh": "已选择："
+  },
+  "Клавиша ": {
+    "en": "Key ",
+    "pl": "Klawisz ",
+    "es": "Tecla ",
+    "de": "Taste ",
+    "fr": "Touche ",
+    "ar": "مفتاح ",
+    "zh": "按键"
+  },
+  "Dictator 0.2 — ошибка": {
+    "en": "Dictator 0.2 — error",
+    "pl": "Dictator 0.2 — błąd",
+    "es": "Dictator 0.2 — error",
+    "de": "Dictator 0.2 — Fehler",
+    "fr": "Dictator 0.3 — erreur",
+    "ar": "Dictator 0.3 — خطأ",
+    "zh": "Dictator 0.3 — 错误"
+  },
+  "\n\nПодробности: ": {
+    "en": "\n\nDetails: ",
+    "pl": "\n\nSzczegóły: ",
+    "es": "\n\nDetalles: ",
+    "de": "\n\nDetails: ",
+    "fr": "\n\nDétails : ",
+    "ar": "\n\nالتفاصيل: ",
+    "zh": "\n\n详细信息："
+  },
+  "Не удалось запустить Dictator 0.2.\n\n": {
+    "en": "Could not start Dictator 0.2.\n\n",
+    "pl": "Nie można uruchomić Dictator 0.2.\n\n",
+    "es": "No se pudo iniciar Dictator 0.2.\n\n",
+    "de": "Dictator 0.2 konnte nicht gestartet werden.\n\n",
+    "fr": "Impossible de lancer Dictator 0.3.\n\n",
+    "ar": "تعذّر تشغيل Dictator 0.3.\n\n",
+    "zh": "无法启动 Dictator 0.3。\n\n"
+  },
+  "Главная": {
+    "en": "Home",
+    "pl": "Strona główna",
+    "es": "Inicio",
+    "de": "Startseite",
+    "fr": "Accueil",
+    "ar": "الرئيسية",
+    "zh": "主页"
+  },
+  "Настройки": {
+    "en": "Settings",
+    "pl": "Ustawienia",
+    "es": "Ajustes",
+    "de": "Einstellungen",
+    "fr": "Paramètres",
+    "ar": "الإعدادات",
+    "zh": "设置"
+  },
+  "О проекте": {
+    "en": "About",
+    "pl": "O projekcie",
+    "es": "Acerca de",
+    "de": "Über das Projekt",
+    "fr": "À propos",
+    "ar": "عن المشروع",
+    "zh": "关于"
+  },
+  "Голос становится текстом": {
+    "en": "Voice becomes words",
+    "pl": "Głos staje się tekstem",
+    "es": "Tu voz se convierte en texto",
+    "de": "Stimme wird zu Text",
+    "fr": "La voix devient texte",
+    "ar": "صوتك يتحول إلى نص",
+    "zh": "让声音成为文字"
+  },
+  "Локально. На вашем компьютере.": {
+    "en": "Locally. On your computer.",
+    "pl": "Lokalnie. Na Twoim komputerze.",
+    "es": "Localmente. En tu ordenador.",
+    "de": "Lokal. Auf Ihrem Computer.",
+    "fr": "En local. Sur votre ordinateur.",
+    "ar": "محليًا. على جهازك.",
+    "zh": "本地运行，就在您的电脑上。"
+  },
+  "Ваш голос. Ваши слова.": {
+    "en": "Your voice. Your words.",
+    "pl": "Twój głos. Twoje słowa.",
+    "es": "Tu voz. Tus palabras.",
+    "de": "Ihre Stimme. Ihre Worte.",
+    "fr": "Votre voix. Vos mots.",
+    "ar": "صوتك. كلماتك.",
+    "zh": "您的声音，您的文字。"
+  },
+  "Говорите свободно — Dictator запишет за вас.": {
+    "en": "Speak freely — Dictator will write for you.",
+    "pl": "Mów swobodnie — Dictator zapisze za Ciebie.",
+    "es": "Habla con libertad: Dictator escribirá por ti.",
+    "de": "Sprechen Sie frei — Dictator schreibt für Sie.",
+    "fr": "Parlez librement : Dictator écrit pour vous.",
+    "ar": "تحدث بحرية — سيكتب Dictator نيابة عنك.",
+    "zh": "自由表达，Dictator 为您记录。"
+  },
+  "Голосовой ввод": {
+    "en": "Voice typing",
+    "pl": "Dyktowanie",
+    "es": "Dictado",
+    "de": "Spracheingabe",
+    "fr": "Saisie vocale",
+    "ar": "الكتابة الصوتية",
+    "zh": "语音输入"
+  },
+  "ЛОКАЛЬНО": {
+    "en": "LOCAL",
+    "pl": "LOKALNIE",
+    "es": "LOCAL",
+    "de": "LOKAL",
+    "fr": "EN LOCAL",
+    "ar": "محلي",
+    "zh": "本地"
+  },
+  "Начать запись": {
+    "en": "Start recording",
+    "pl": "Rozpocznij nagrywanie",
+    "es": "Iniciar grabación",
+    "de": "Aufnahme starten",
+    "fr": "Commencer l’enregistrement",
+    "ar": "بدء التسجيل",
+    "zh": "开始录音"
+  },
+  "Остановить запись": {
+    "en": "Stop recording",
+    "pl": "Zatrzymaj nagrywanie",
+    "es": "Detener grabación",
+    "de": "Aufnahme stoppen",
+    "fr": "Arrêter l’enregistrement",
+    "ar": "إيقاف التسجيل",
+    "zh": "停止录音"
+  },
+  "Запись появится здесь. Для ввода в другом приложении удерживайте назначенную кнопку.": {
+    "en": "Your recording will appear here. To type in another app, hold your assigned button.",
+    "pl": "Nagranie pojawi się tutaj. Aby pisać w innej aplikacji, przytrzymaj przypisany przycisk.",
+    "es": "La grabación aparecerá aquí. Para escribir en otra aplicación, mantén pulsado el botón asignado.",
+    "de": "Die Aufnahme erscheint hier. Für Texteingabe in anderen Apps die zugewiesene Taste halten.",
+    "fr": "Votre enregistrement apparaîtra ici. Pour écrire dans une autre app, maintenez le bouton attribué.",
+    "ar": "سيظهر التسجيل هنا. للكتابة في تطبيق آخر، اضغط مع الاستمرار على الزر المعيّن.",
+    "zh": "录音结果将显示在这里。要在其他应用中输入，请按住已分配的按键。"
+  },
+  "Параметры диктовки": {
+    "en": "Dictation preferences",
+    "pl": "Ustawienia dyktowania",
+    "es": "Preferencias de dictado",
+    "de": "Diktiereinstellungen",
+    "fr": "Préférences de dictée",
+    "ar": "تفضيلات الإملاء",
+    "zh": "语音输入选项"
+  },
+  "Клавиатура или мышь": {
+    "en": "Keyboard or mouse",
+    "pl": "Klawiatura lub mysz",
+    "es": "Teclado o ratón",
+    "de": "Tastatur oder Maus",
+    "fr": "Clavier ou souris",
+    "ar": "لوحة المفاتيح أو الفأرة",
+    "zh": "键盘或鼠标"
+  },
+  "Назначить…": {
+    "en": "Assign…",
+    "pl": "Przypisz…",
+    "es": "Asignar…",
+    "de": "Zuweisen…",
+    "fr": "Attribuer…",
+    "ar": "تعيين…",
+    "zh": "分配…"
+  },
+  "Назначить кнопку": {
+    "en": "Assign a button",
+    "pl": "Przypisz przycisk",
+    "es": "Asignar un botón",
+    "de": "Taste zuweisen",
+    "fr": "Attribuer un bouton",
+    "ar": "تعيين زر",
+    "zh": "分配按键"
+  },
+  "Наведите указатель на это окно и нажмите колесо или боковую кнопку мыши. Или нажмите любую клавишу клавиатуры.": {
+    "en": "Move the pointer into this window and press the mouse wheel or a side button. Or press any keyboard key.",
+    "pl": "Przesuń wskaźnik do tego okna i naciśnij kółko lub boczny przycisk myszy. Możesz też nacisnąć dowolny klawisz.",
+    "es": "Coloca el puntero en esta ventana y pulsa la rueda o un botón lateral del ratón. O pulsa una tecla del teclado.",
+    "de": "Zeiger in dieses Fenster bewegen und Mausrad oder Seitentaste drücken. Oder eine Taste auf der Tastatur drücken.",
+    "fr": "Placez le pointeur dans cette fenêtre et appuyez sur la molette ou un bouton latéral. Ou appuyez sur une touche du clavier.",
+    "ar": "حرّك المؤشر داخل هذه النافذة واضغط على عجلة الفأرة أو أحد أزرارها الجانبية. أو اضغط أي مفتاح على لوحة المفاتيح.",
+    "zh": "将鼠标移入此窗口，按下滚轮或侧键，也可以按下任意键盘按键。"
+  },
+  "\nОтпустите кнопку…": {
+    "en": "\nRelease the button…",
+    "pl": "\nZwolnij przycisk…",
+    "es": "\nSuelta el botón…",
+    "de": "\nTaste loslassen…",
+    "fr": "\nRelâchez le bouton…",
+    "ar": "\nاترك الزر…",
+    "zh": "\n请松开按键…"
+  },
+  "Кнопка сохранена. Загрузите модель, чтобы начать.": {
+    "en": "Button saved. Load a model to begin.",
+    "pl": "Przycisk zapisany. Wczytaj model, aby rozpocząć.",
+    "es": "Botón guardado. Carga un modelo para empezar.",
+    "de": "Taste gespeichert. Zum Start ein Modell laden.",
+    "fr": "Bouton enregistré. Chargez un modèle pour commencer.",
+    "ar": "تم حفظ الزر. حمّل نموذجًا للبدء.",
+    "zh": "按键已保存，请加载模型以开始。"
+  },
+  "Автоматически": {
+    "en": "Automatic",
+    "pl": "Automatycznie",
+    "es": "Automático",
+    "de": "Automatisch",
+    "fr": "Automatique",
+    "ar": "تلقائي",
+    "zh": "自动"
+  },
+  "Язык речи": {
+    "en": "Speech language",
+    "pl": "Język mowy",
+    "es": "Idioma del dictado",
+    "de": "Sprache der Aufnahme",
+    "fr": "Langue de la parole",
+    "ar": "لغة الكلام",
+    "zh": "语音语言"
+  },
+  "Модель скачивается один раз. Аудио остаётся на компьютере.": {
+    "en": "Download the model once. Audio stays on your computer.",
+    "pl": "Model pobiera się raz. Dźwięk pozostaje na komputerze.",
+    "es": "Descarga el modelo una vez. El audio queda en tu ordenador.",
+    "de": "Modell einmal herunterladen. Audio bleibt auf Ihrem Computer.",
+    "fr": "Le modèle se télécharge une fois. L’audio reste sur votre ordinateur.",
+    "ar": "يُنزل النموذج مرة واحدة. يبقى الصوت على جهازك.",
+    "zh": "模型只需下载一次，音频留在您的电脑上。"
+  },
+  "Загрузить модель": {
+    "en": "Load model",
+    "pl": "Wczytaj model",
+    "es": "Cargar modelo",
+    "de": "Modell laden",
+    "fr": "Charger le modèle",
+    "ar": "تحميل النموذج",
+    "zh": "加载模型"
+  },
+  "Модель готова": {
+    "en": "Model ready",
+    "pl": "Model gotowy",
+    "es": "Modelo listo",
+    "de": "Modell bereit",
+    "fr": "Modèle prêt",
+    "ar": "النموذج جاهز",
+    "zh": "模型已就绪"
+  },
+  "Пусть Dictator работает так, как удобно вам.": {
+    "en": "Make Dictator work your way.",
+    "pl": "Dostosuj Dictator do swoich potrzeb.",
+    "es": "Haz que Dictator se adapte a ti.",
+    "de": "Passen Sie Dictator an Ihre Wünsche an.",
+    "fr": "Adaptez Dictator à vos habitudes.",
+    "ar": "اجعل Dictator يعمل بالطريقة التي تناسبك.",
+    "zh": "让 Dictator 按您的习惯工作。"
+  },
+  "Язык и запуск": {
+    "en": "Language & startup",
+    "pl": "Język i uruchamianie",
+    "es": "Idioma e inicio",
+    "de": "Sprache und Start",
+    "fr": "Langue et démarrage",
+    "ar": "اللغة والتشغيل",
+    "zh": "语言与启动"
+  },
+  "Изменения применяются сразу и сохраняются автоматически.": {
+    "en": "Changes apply instantly and save automatically.",
+    "pl": "Zmiany są stosowane od razu i zapisywane automatycznie.",
+    "es": "Los cambios se aplican al instante y se guardan automáticamente.",
+    "de": "Änderungen gelten sofort und werden automatisch gespeichert.",
+    "fr": "Les modifications s’appliquent et s’enregistrent automatiquement.",
+    "ar": "تُطبّق التغييرات فورًا وتُحفظ تلقائيًا.",
+    "zh": "更改会立即生效并自动保存。"
+  },
+  "Запускать при входе в Windows": {
+    "en": "Start at Windows sign-in",
+    "pl": "Uruchamiaj przy logowaniu do Windows",
+    "es": "Iniciar al entrar en Windows",
+    "de": "Bei Windows-Anmeldung starten",
+    "fr": "Démarrer à la connexion Windows",
+    "ar": "التشغيل عند تسجيل الدخول إلى Windows",
+    "zh": "登录 Windows 时启动"
+  },
+  "Приложение будет работать в фоне, доступ через значок в трее": {
+    "en": "The app will run in the background, accessible from the tray icon",
+    "pl": "Aplikacja będzie działać w tle, dostępna przez ikonę w zasobniku",
+    "es": "La aplicación funcionará en segundo plano, accesible desde el icono de la bandeja",
+    "de": "Die App läuft im Hintergrund und ist über das Symbol im Infobereich erreichbar",
+    "fr": "L’application fonctionnera en arrière-plan, accessible depuis son icône de notification",
+    "ar": "سيعمل التطبيق في الخلفية، ويمكن الوصول إليه من أيقونة علبة النظام",
+    "zh": "应用将在后台运行，可通过托盘图标访问"
+  },
+  "Небольшой проект. Большая вера в доступные инструменты.": {
+    "en": "A small project. A big belief in accessible tools.",
+    "pl": "Mały projekt. Wielka wiara w dostępne narzędzia.",
+    "es": "Un pequeño proyecto. Una gran fe en herramientas accesibles.",
+    "de": "Ein kleines Projekt. Viel Vertrauen in zugängliche Werkzeuge.",
+    "fr": "Un petit projet. Une grande confiance dans les outils accessibles.",
+    "ar": "مشروع صغير. إيمان كبير بأدوات متاحة للجميع.",
+    "zh": "小小的项目，对人人可用的工具怀抱坚定信念。"
+  },
+  "История проекта": {
+    "en": "Our story",
+    "pl": "Historia projektu",
+    "es": "Historia del proyecto",
+    "de": "Die Geschichte des Projekts",
+    "fr": "L’histoire du projet",
+    "ar": "قصة المشروع",
+    "zh": "项目故事"
+  },
+  "Изменения сохранены": {
+    "en": "Changes saved",
+    "pl": "Zmiany zapisane",
+    "es": "Cambios guardados",
+    "de": "Änderungen gespeichert",
+    "fr": "Modifications enregistrées",
+    "ar": "تم حفظ التغييرات",
+    "zh": "更改已保存"
+  },
+  "Текст готов. Его можно скопировать.": {
+    "en": "Text ready. You can copy it.",
+    "pl": "Tekst gotowy. Możesz go skopiować.",
+    "es": "Texto listo. Puedes copiarlo.",
+    "de": "Text bereit. Sie können ihn kopieren.",
+    "fr": "Le texte est prêt. Vous pouvez le copier.",
+    "ar": "النص جاهز. يمكنك نسخه.",
+    "zh": "文字已就绪，可以复制。"
+  },
+  "Dictator 0.3 · Локальный голосовой ввод": {
+    "en": "Dictator 0.3 · Local voice typing",
+    "pl": "Dictator 0.3 · Lokalne dyktowanie",
+    "es": "Dictator 0.3 · Dictado local",
+    "de": "Dictator 0.3 · Lokale Spracheingabe",
+    "fr": "Dictator 0.3 · Saisie vocale locale",
+    "ar": "Dictator 0.3 · الكتابة الصوتية المحلية",
+    "zh": "Dictator 0.3 · 本地语音输入"
+  },
+  "Dictator 0.3 — ошибка": {
+    "en": "Dictator 0.3 — error",
+    "pl": "Dictator 0.3 — błąd",
+    "es": "Dictator 0.3 — error",
+    "de": "Dictator 0.3 — Fehler",
+    "fr": "Dictator 0.3 — erreur",
+    "ar": "Dictator 0.3 — خطأ",
+    "zh": "Dictator 0.3 — 错误"
+  },
+  "Не удалось запустить Dictator 0.3.\n\n": {
+    "en": "Could not start Dictator 0.3.\n\n",
+    "pl": "Nie można uruchomić Dictator 0.3.\n\n",
+    "es": "No se pudo iniciar Dictator 0.3.\n\n",
+    "de": "Dictator 0.3 konnte nicht gestartet werden.\n\n",
+    "fr": "Impossible de lancer Dictator 0.3.\n\n",
+    "ar": "تعذّر تشغيل Dictator 0.3.\n\n",
+    "zh": "无法启动 Dictator 0.3。\n\n"
+  },
+  "Переводить речь на английский": {
+    "en": "Translate speech into English",
+    "pl": "Tłumacz mowę na angielski",
+    "es": "Traducir voz al inglés",
+    "de": "Sprache ins Englische übersetzen",
+    "fr": "Traduire la parole en anglais",
+    "ar": "ترجمة الكلام إلى الإنجليزية",
+    "zh": "将语音翻译成英语"
+  },
+  "Локально. Язык речи выбирается на главной. Для качества рекомендуется medium.": {
+    "en": "Offline. Select the spoken language on Home. Medium is recommended for quality.",
+    "pl": "Lokalnie. Wybierz język mowy na stronie głównej. Dla jakości zalecamy medium.",
+    "es": "Localmente. Elige el idioma hablado en Inicio. Se recomienda medium para mayor calidad.",
+    "de": "Lokal. Ausgangssprache auf der Startseite wählen. Für gute Qualität wird medium empfohlen.",
+    "fr": "En local. Choisissez la langue parlée dans Accueil. Medium est recommandé pour la qualité.",
+    "ar": "محلياً. اختر لغة الكلام من الصفحة الرئيسية. يوصى بنموذج medium للجودة.",
+    "zh": "本地运行。在主页选择语音语言。建议使用 medium 模型以提高质量。"
+  },
+  "Лицензии и исходники": {
+    "en": "Licenses and source code",
+    "pl": "Licencje i kod źródłowy",
+    "es": "Licencias y código fuente",
+    "de": "Lizenzen und Quellcode",
+    "fr": "Licences et code source",
+    "ar": "التراخيص والشيفرة المصدرية",
+    "zh": "许可证与源代码"
+  },
+  "Открыть папку лицензий и исходников": {
+    "en": "Open licenses and source code folder",
+    "pl": "Otwórz folder licencji i kodu źródłowego",
+    "es": "Abrir carpeta de licencias y código fuente",
+    "de": "Ordner mit Lizenzen und Quellcode öffnen",
+    "fr": "Ouvrir le dossier des licences et du code source",
+    "ar": "فتح مجلد التراخيص والشيفرة المصدرية",
+    "zh": "打开许可证与源代码文件夹"
+  },
+  "Файлы лицензий не найдены.": {
+    "en": "License files were not found.",
+    "pl": "Nie znaleziono plików licencji.",
+    "es": "No se encontraron los archivos de licencia.",
+    "de": "Lizenzdateien wurden nicht gefunden.",
+    "fr": "Les fichiers de licence sont introuvables.",
+    "ar": "لم يتم العثور على ملفات التراخيص.",
+    "zh": "未找到许可证文件。"
+  },
+  "Dictatoro 0.3 · Локальный голосовой ввод": {
+    "en": "Dictatoro 0.3 · Local voice typing",
+    "pl": "Dictatoro 0.3 · Lokalne dyktowanie",
+    "es": "Dictatoro 0.3 · Dictado local",
+    "de": "Dictatoro 0.3 · Lokale Spracheingabe",
+    "fr": "Dictatoro 0.3 · Saisie vocale locale",
+    "ar": "Dictatoro 0.3 · الكتابة الصوتية المحلية",
+    "zh": "Dictatoro 0.3 · 本地语音输入"
+  },
+  "Dictatoro 0.3 — ошибка": {
+    "en": "Dictatoro 0.3 — error",
+    "pl": "Dictatoro 0.3 — błąd",
+    "es": "Dictatoro 0.3 — error",
+    "de": "Dictatoro 0.3 — Fehler",
+    "fr": "Dictatoro 0.3 — erreur",
+    "ar": "Dictatoro 0.3 — خطأ",
+    "zh": "Dictatoro 0.3 — 错误"
+  },
+  "Не удалось запустить Dictatoro 0.3.\n\n": {
+    "en": "Could not start Dictatoro 0.3.\n\n",
+    "pl": "Nie można uruchomić Dictatoro 0.3.\n\n",
+    "es": "No se pudo iniciar Dictatoro 0.3.\n\n",
+    "de": "Dictatoro 0.3 konnte nicht gestartet werden.\n\n",
+    "fr": "Impossible de lancer Dictatoro 0.3.\n\n",
+    "ar": "تعذّر تشغيل Dictatoro 0.3.\n\n",
+    "zh": "无法启动 Dictatoro 0.3。\n\n"
+  },
+  "Ваш голос, ваша независимость.": {
+    "en": "Your voice, your independence.",
+    "pl": "Twój głos, Twoja niezależność.",
+    "de": "Deine Stimme, deine Unabhängigkeit.",
+    "es": "Tu voz, tu independencia.",
+    "fr": "Votre voix, votre indépendance.",
+    "ar": "صوتك، استقلالك.",
+    "zh": "你的声音，你的独立。"
+  },
+  "Подготовка модели…": {
+    "ru": "Подготовка модели…",
+    "en": "Preparing model…",
+    "pl": "Przygotowywanie modelu…",
+    "es": "Preparando modelo…",
+    "de": "Modell wird vorbereitet…",
+    "fr": "Préparation du modèle…",
+    "ar": "جارٍ تجهيز النموذج…",
+    "zh": "正在准备模型…"
+  },
+  "Личный словарь": {
+    "ru": "Личный словарь",
+    "en": "Personal dictionary",
+    "pl": "Słownik osobisty",
+    "de": "Persönliches Wörterbuch",
+    "es": "Diccionario personal",
+    "fr": "Dictionnaire personnel",
+    "ar": "القاموس الشخصي",
+    "zh": "个人词典"
+  },
+  "Имена и термины, по одному на строку. Подсказки для диктовки, не для перевода.": {
+    "ru": "Имена и термины, по одному на строку. Подсказки для диктовки, не для перевода.",
+    "en": "Names and terms, one per line. Hints for dictation, not translation.",
+    "pl": "Nazwy i terminy, po jednym w wierszu. Wskazówki do dyktowania, nie tłumaczenia.",
+    "de": "Namen und Begriffe, einer pro Zeile. Hinweise für Diktate, nicht für Übersetzungen.",
+    "es": "Nombres y términos, uno por línea. Pistas para dictado, no para traducción.",
+    "fr": "Noms et termes, un par ligne. Indications pour la dictée, pas pour la traduction.",
+    "ar": "أسماء ومصطلحات، واحد في كل سطر. تلميحات للإملاء وليس للترجمة.",
+    "zh": "每行一个姓名或术语。用于听写提示，不用于翻译。"
+  },
+  "Сохранить": {
+    "ru": "Сохранить",
+    "en": "Save",
+    "pl": "Zapisz",
+    "de": "Speichern",
+    "es": "Guardar",
+    "fr": "Enregistrer",
+    "ar": "حفظ",
+    "zh": "保存"
+  },
+  "Не более 1000 символов.": {
+    "ru": "Не более 1000 символов.",
+    "en": "Up to 1000 characters.",
+    "pl": "Maksymalnie 1000 znaków.",
+    "de": "Höchstens 1000 Zeichen.",
+    "es": "Máximo 1000 caracteres.",
+    "fr": "1000 caractères maximum.",
+    "ar": "1000 حرف كحد أقصى.",
+    "zh": "最多1000个字符。"
+  },
+  "Добавить популярные английские слова": {
+    "ru": "Добавить популярные английские слова",
+    "en": "Add common English terms",
+    "pl": "Dodaj popularne angielskie słowa",
+    "de": "Gängige englische Begriffe hinzufügen",
+    "es": "Añadir términos comunes en inglés",
+    "fr": "Ajouter des termes anglais courants",
+    "ar": "إضافة كلمات إنجليزية شائعة",
+    "zh": "添加常用英语词汇"
+  },
+  "Base уже в комплекте. Работает без интернета.": {
+    "en": "Base is included. Works offline.",
+    "pl": "Base jest w zestawie. Działa offline.",
+    "es": "Base incluida. Funciona sin internet.",
+    "de": "Base enthalten. Funktioniert offline.",
+    "fr": "Base incluse. Fonctionne hors ligne.",
+    "ar": "نموذج Base مضمن. يعمل دون إنترنت.",
+    "zh": "已内置 Base，可离线使用。"
+  },
+  "Не удалось открыть встроенную модель Base. Переустановите Dictatoro.": {
+    "en": "Unable to open the included Base model. Reinstall Dictatoro.",
+    "pl": "Nie można otworzyć dołączonego modelu Base. Zainstaluj Dictatoro ponownie.",
+    "es": "No se puede abrir el modelo Base incluido. Reinstala Dictatoro.",
+    "de": "Das enthaltene Base-Modell kann nicht geöffnet werden. Installiere Dictatoro erneut.",
+    "fr": "Impossible d’ouvrir le modèle Base inclus. Réinstallez Dictatoro.",
+    "ar": "تعذر فتح نموذج Base المضمن. أعد تثبيت Dictatoro.",
+    "zh": "无法打开内置 Base 模型。请重新安装 Dictatoro。"
+  }
+}

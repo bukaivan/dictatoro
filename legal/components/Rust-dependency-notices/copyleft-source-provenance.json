@@ -1,0 +1,20 @@
+[
+  {
+    "file": "sources/colored-3.1.1.crate",
+    "url": "https://static.crates.io/crates/colored/colored-3.1.1.crate",
+    "sha256": "faf9468729b8cbcea668e36183cb69d317348c2e08e994829fb56ebfdfbaac34",
+    "hash_checked_against": "Publisher sdist Cargo.lock"
+  },
+  {
+    "file": "sources/inferno-0.11.21.crate",
+    "url": "https://static.crates.io/crates/inferno/inferno-0.11.21.crate",
+    "sha256": "232929e1d75fe899576a3d5c7416ad0d88dbfbb3c3d6aa00873a7408a50ddb88",
+    "hash_checked_against": "Publisher sdist Cargo.lock"
+  },
+  {
+    "file": "sources/option-ext-0.2.0.crate",
+    "url": "https://static.crates.io/crates/option-ext/option-ext-0.2.0.crate",
+    "sha256": "04744f49eae99ab78e0d5c0b603ab218f515ea8cfe5a456d7629ad883a3b6e7d",
+    "hash_checked_against": "Publisher sdist Cargo.lock"
+  }
+]

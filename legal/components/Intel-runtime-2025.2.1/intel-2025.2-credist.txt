@@ -1,0 +1,103 @@
+This is the redist.txt file mentioned in the associated Intel End User License 
+Agreement for Developer Tools (Version April 2023) (“Agreement”).  All 
+capitalized terms used but not defined in this file have the same meaning as 
+specified in the Agreement. The Redistributables are listed below, and are 
+subject to all of the terms and conditions of the Agreement.
+
+Please note that Third Party Programs, if any, may also be redistributable. See 
+the “third-party-programs.txt” or other similarly-named text file for more 
+details.”
+
+################################################################################
+###   Intel® oneAPI DPC++/C++ Compiler 2025.2
+################################################################################
+
+<installdir>/bin/OpenCL.dll
+<installdir>//share/doc/opencl/licensing/third-party-programs.txt
+<installdir>//share/doc/opencl/licensing/TBB_TPP.txt
+<installdir>//share/doc/opencl/licensing/EULA.txt
+<installdir>/licensing/compiler/Intel Developer Tools EULA.rtf
+<installdir>/bin/omptarget.rtl.opencl.dll
+<installdir>/bin/omptarget.rtl.level0.dll
+<installdir>/bin/omptarget.dll
+<installdir>/bin/omptarget.sycl.wrap.dll
+<installdir>/opt/compiler/lib/libomptarget-opencl-required.bc
+<installdir>/opt/compiler/lib/libomptarget-opencl-optional.bc
+<installdir>/bin/omptarget.rtl.unified_runtime.dll
+<installdir>/bin/libomp-fallback-cassert.spv
+<installdir>/bin/libomp-fallback-cmath-fp64.spv
+<installdir>/bin/libomp-fallback-cmath.spv
+<installdir>/bin/libomp-fallback-complex-fp64.spv
+<installdir>/bin/libomp-fallback-complex.spv
+<installdir>/bin/libomp-fallback-cstring.spv
+<installdir>/bin/libomp-fallback-imf-fp64.spv
+<installdir>/bin/libomp-fallback-imf.spv
+<installdir>/opt/compiler/lib/libomp-fallback-imf-fp64.obj
+<installdir>/opt/compiler/lib/libomp-fallback-imf.obj
+<installdir>/opt/compiler/lib/libomp-imf-fp64.obj
+<installdir>/opt/compiler/lib/libomp-imf.obj
+<installdir>/opt/compiler/lib/libomptarget-nextgen.bc
+<installdir>/opt/compiler/lib/libomptarget-nextgen64.bc
+<installdir>/opt/compiler/lib/libomp-nextgen-spirvdevicertl-fp64.obj
+<installdir>/opt/compiler/lib/libomp-nextgen-spirvdevicertl.obj
+<installdir>/bin/libiomp5md.dll
+<installdir>/bin/libiomp5md.pdb
+<installdir>/bin/libiompstubs5md.dll
+<installdir>/bin/libiomp5md_db.dll
+<installdir>/lib/libiomp5md.lib
+<installdir>/lib/libiompstubs5md.lib
+<installdir>/bin/xptifw.dll
+<installdir>/bin/libmmd.dll
+<installdir>/bin/libmmdd.dll
+<installdir>/bin/svml_dispmd.dll
+<installdir>/bin/qkmalloc.dll
+<installdir>/bin/libircmd.dll
+<installdir>/lib/libircdisp.lib
+<installdir>/lib/libircmd.lib
+<installdir>/bin/libirngmd.dll
+<installdir>/bin/xptifwd.dll
+<installdir>/lib/xptifwd.lib
+<installdir>/lib/sycl-jit.lib
+<installdir>/bin/ur_adapter_level_zero_v2.dll
+<installdir>/bin/ur_loader.dll
+<installdir>/bin/ur_adapter_level_zero.dll
+<installdir>/bin/ur_adapter_opencl.dll
+<installdir>/bin/ur_win_proxy_loader.dll
+<installdir>/bin/ur_win_proxy_loaderd.dll
+<installdir>/bin/pstloffload.dll
+<installdir>/bin/pstloffloadd.dll
+<installdir>/lib/pstloffload.lib
+<installdir>/lib/pstloffloadd.lib
+<installdir>/bin/libsycl-fallback-bfloat16.spv
+<installdir>/bin/libsycl-fallback-cassert.spv
+<installdir>/bin/libsycl-fallback-cmath-fp64.spv
+<installdir>/bin/libsycl-fallback-cmath.spv
+<installdir>/bin/libsycl-fallback-complex-fp64.spv
+<installdir>/bin/libsycl-fallback-complex.spv
+<installdir>/bin/libsycl-fallback-cstring.spv
+<installdir>/bin/libsycl-fallback-imf-bf16.spv
+<installdir>/bin/libsycl-fallback-imf-fp64.spv
+<installdir>/bin/libsycl-fallback-imf.spv
+<installdir>/bin/libsycl-imf-dl-fp64.spv
+<installdir>/bin/libsycl-imf-dl.spv
+<installdir>/bin/libsycl-native-bfloat16.spv
+<installdir>/bin/sycl8-preview.dll
+<installdir>/bin/sycl8-previewd.dll
+<installdir>/bin/sycl8.dll
+<installdir>/bin/sycl8d.dll
+<installdir>/bin/libsycl-bfloat16.spv
+<installdir>/bin/libsycl-cmath-fp64.spv
+<installdir>/bin/libsycl-cmath.spv
+<installdir>/bin/libsycl-complex-fp64.spv
+<installdir>/bin/libsycl-complex.spv
+<installdir>/bin/libsycl-crt.spv
+<installdir>/bin/libsycl-imf-bf16.spv
+<installdir>/bin/libsycl-imf-fp64.spv
+<installdir>/bin/libsycl-imf.spv
+<installdir>/bin/libsycl-itt-compiler-wrappers.spv
+<installdir>/bin/libsycl-itt-stubs.spv
+<installdir>/bin/libsycl-itt-user-wrappers.spv
+<installdir>/bin/libsycl-msvc-math.spv
+<installdir>/bin/sycl-jit.dll
+<installdir>/bin/onnxruntime.1.12.22.721.dll
+<installdir>/bin/compiler/onnxruntime.1.12.22.721.dll

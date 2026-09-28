@@ -1,0 +1,6 @@
+faster-whisper==1.2.1
+PySide6_Essentials==6.11.2
+sounddevice==0.5.1
+keyboard==0.13.5
+pywin32==310
+numpy==2.2.4

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "oneDNN-3.1.1-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/oneapi-src/oneDNN/v3.1.1/LICENSE",
+    "sha256": "dd12452e1ae11e3282271aa5895d8175296b83e936a027209f9399d26a407d0f"
+  },
+  {
+    "file": "oneDNN-3.1.1-THIRD-PARTY-PROGRAMS.txt",
+    "url": "https://raw.githubusercontent.com/oneapi-src/oneDNN/v3.1.1/THIRD-PARTY-PROGRAMS",
+    "sha256": "9117585dfc6b5cd0fafc063312f28a86ec82eb97bf68316dcefcaaa7fc11428e"
+  },
+  {
+    "file": "MKL-2025.2-official-notices.html",
+    "url": "https://www.intel.com/content/www/us/en/docs/onemkl/developer-reference-dpcpp/2025-2/notices-and-disclaimers.html",
+    "sha256": "16147d894f466bf7d57c3c7c4f9c7607767f30ee761ea3d0a41e637b150d7e8d"
+  }
+]
