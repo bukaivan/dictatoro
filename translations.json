@@ -1,4 +1,13 @@
 {
+  "Удерживайте ": {
+    "en": "Hold ",
+    "pl": "Przytrzymaj ",
+    "es": "Mantén pulsado ",
+    "de": "Gedrückt halten: ",
+    "fr": "Maintenez enfoncé : ",
+    "ar": "اضغط باستمرار على ",
+    "zh": "按住 "
+  },
   "Dictator 0.2 · Локальный голосовой ввод": {
     "en": "Dictator 0.2 · Local voice typing",
     "pl": "Dictator 0.2 · Lokalne dyktowanie",
