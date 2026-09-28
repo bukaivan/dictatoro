@@ -24,7 +24,35 @@ Please do not include private dictation, recordings or account credentials.
 - Windows sign-in startup and eight interface languages: Russian, English, Polish,
   Spanish, German, French, Arabic and Simplified Chinese.
 
+## Screenshots
+
+Actual preview interface, captured with isolated defaults before loading a model.
+These images show the UI, not a live transcription or a recognition benchmark.
+
+![Dictatoro Home: recording, speech language, microphone and model selection](docs/screenshots/home-en.png)
+
+<details>
+<summary>Settings and About</summary>
+
+![Settings: recording shortcut, translation, interface language and startup](docs/screenshots/settings-en.png)
+![About Dictatoro](docs/screenshots/about-en.png)
+
+</details>
+
+<details>
+<summary>Русский интерфейс</summary>
+
+![Главная](docs/screenshots/home-ru.png)
+![Настройки](docs/screenshots/settings-ru.png)
+![О программе](docs/screenshots/about-ru.png)
+
+</details>
+
 ## Installation
+
+**Can I download and install it now?** This publication contains source code.
+GitHub's **Code → Download ZIP** downloads the source, not a Windows installer.
+There is currently no ready-to-install public release.
 
 There is no supported public installer yet. Developers can follow [BUILDING.md](BUILDING.md)
 to prepare the runtime and build a local preview. Model weights and runtime binaries
@@ -92,6 +120,16 @@ Microsoft and Intel runtimes are not removed.
 Known issue: the unsigned preview's uninstaller can be blocked by Smart App Control,
 as described above. Do not disable Windows protection to use this preview. Ordinary
 automated uninstall tests did not cover Smart App Control enforcement.
+
+## Roadmap
+
+- Compare leading local speech recognition engines on shared multilingual samples,
+  prioritizing accuracy before latency and memory use. Publish methods and results.
+- Improve Windows installation, updates and removal; finish native dependency review,
+  arrange trusted code signing and validate on clean Windows systems.
+- Develop a macOS version after the Windows release is ready.
+
+These are planned milestones, not features available in this preview.
 
 ## Development
 
